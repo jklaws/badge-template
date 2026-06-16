@@ -1,0 +1,15 @@
+{
+  "event": "My Universe '26",
+  "year": 2026,
+  "days": [
+    { "title": "OCT 28 - DAY 1", "date": "2026-10-28", "sessions": [
+      { "start": "09:00", "end": null,    "title": "Opening Keynote",   "subtitle": "Main Stage" },
+      { "start": "10:30", "end": "12:00", "title": "Add your sessions", "subtitle": "Edit agenda/agenda.json" },
+      { "start": "13:00", "end": "14:00", "title": "Lunch",             "subtitle": "Expo floor" }
+    ]},
+    { "title": "OCT 29 - DAY 2", "date": "2026-10-29", "sessions": [
+      { "start": "10:00", "end": "11:30", "title": "Sessions",        "subtitle": "Your picks" },
+      { "start": "14:00", "end": null,    "title": "Closing Keynote", "subtitle": "Main Stage" }
+    ]}
+  ]
+}
