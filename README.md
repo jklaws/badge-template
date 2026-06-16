@@ -3,12 +3,17 @@
 A starter for your **GitHub Universe badge** repo. Your badge reads its agenda
 (and, later, other capabilities) from a repo named **`badge`** in your account.
 
+> **Heads up: your agenda is public.** This repo is public so your badge can read
+> it with no login or token. That also means anyone who knows your GitHub username
+> can see your schedule. Keep it to things you're fine sharing, and leave out
+> anything private (home address, private meeting spots, and so on).
+
 ## Set it up (one tap)
 
 1. Click **Use this template ▸ Create a new repository** (top of this page), or
    open **https://github.com/jklaws/badge-template/generate**
 2. Name the new repo exactly **`badge`** and create it.
-3. On your badge, open the **Agenda** app and press **B** to sync.
+3. On your badge, open the **Agenda** app and hold **A+C** (or press **B**) to sync.
 
 That's it — no token, no install. The badge only *reads* your public repo.
 
@@ -32,7 +37,7 @@ Edit **`agenda/agenda.json`**:
 - `start` / `end` are `"HH:MM"` (24h); `end` may be `null` for open-ended items.
 - `date` is `"YYYY-MM-DD"` — the badge highlights the session happening **now**
   and counts down to the event.
-- Press **B** in the Agenda app to pull your latest changes.
+- Hold **A+C** (or press **B**) in the Agenda app to pull your latest changes.
 
 ## Folder layout
 
